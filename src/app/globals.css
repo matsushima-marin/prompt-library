@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+/* スクロールバーの有無で横幅が変わらないよう、常にその分の余白を確保する */
+html {
+  scrollbar-gutter: stable;
+}
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
