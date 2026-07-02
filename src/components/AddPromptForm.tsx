@@ -36,7 +36,7 @@ export default function AddPromptForm() {
         required
         rows={3}
         placeholder="プロンプト/定型文の本文…"
-        className="mt-3 w-full rounded-md border border-black/15 px-3 py-2 text-sm dark:border-white/15 dark:bg-neutral-800"
+        className="mt-3 w-full resize-none rounded-md border border-black/15 px-3 py-2 text-sm dark:border-white/15 dark:bg-neutral-800"
       />
       <button
         type="submit"
